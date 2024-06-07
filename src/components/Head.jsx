@@ -42,7 +42,7 @@ export default function Head() {
   };
 
   return (
-    <div className=" grid grid-flow-col p-2 m-2 shadow-lg  ">
+    <div className=" grid grid-flow-col p-2 mx-2 shadow-lg fixed top-0 left-0 right-0 bg-white">
       <div className="flex col-span-1">
         <img
           src="https://cdn.iconscout.com/icon/free/png-256/free-hamburger-menu-462145.png?f=webp"

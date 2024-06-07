@@ -5,7 +5,7 @@ export default function SideBar() {
   const isMenu = useSelector((state) => state.app.isMenuOpen);
   if (!isMenu) return null;
   return (
-    <div className="w-48 shadow-lg p-5">
+    <div className="w-48 shadow-lg p-5 mt-20 fixed h-full bg-white ">
       <ul>
         <NavLink to={"/"}>
           <li>Home</li>

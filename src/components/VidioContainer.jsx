@@ -26,7 +26,7 @@ export default function VidioContainer() {
   };
   // if(!data) return null
   return (
-    <div className="flex flex-wrap justify-center">
+    <div className="flex flex-wrap justify-center mt-20">
       {data && <AddVidioCard  info={data[0]} />}
       {data &&
         data.map((vidio) => (
